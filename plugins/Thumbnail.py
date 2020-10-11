@@ -8,7 +8,7 @@ import os
 import time
 
 from config import Config
-
+from PIL import Image
 from translation import Translation
 
 import pyrogram
