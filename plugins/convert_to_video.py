@@ -11,10 +11,7 @@ from pyrogram import Client, Filters
 from Tools.Download import download
 from Tools.progress import progress_for_pyrogram
 
-@Client.on_message(Filters.command(["converttovideo"]))
-async def video(c, m):
-      await download(c, m)
-      logger.info("Downloading")
+
 
 
 async def upload_video(c, m, send, media_location, thumb_image_path):
@@ -41,3 +38,9 @@ async def upload_video(c, m, send, media_location, thumb_image_path):
       except:
           pass
       await send.edit_message_text(Translation.UPLOAD_COMPLETE)
+
+
+@Client.on_message(Filters.command(["converttovideo"]))
+async def video(c, m):
+      await download(c, m)
+      logger.info("Downloading")
