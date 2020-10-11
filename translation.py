@@ -17,3 +17,14 @@ I can convert file to video or video to file with custom thumbnail support"""
       ABOUT = """
 
 """
+
+##############################################################################################################################
+##############################################################################################################################
+
+
+#DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
+
+      PROGRESS = """Done ✅: {0}
+Total 🌀: {1}
+Speed 🚀: {2}/s
+ETA 🕰: {3}"""
