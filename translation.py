@@ -42,5 +42,5 @@ Total 🌀: {1}
 Speed 🚀: {2}/s
 ETA 🕰: {3}"""
        
-       DOWNLOAD_PROGRESS = "▪️"
-       UPLOAD_PROGRESS = "▫️"
+      DOWNLOAD_PROGRESS = "▪️"
+      UPLOAD_PROGRESS = "▫️"
