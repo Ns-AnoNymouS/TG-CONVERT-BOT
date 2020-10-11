@@ -1,2 +1,3 @@
 hachoir
+numpy
 https://github.com/pyrogram/pyrogram/archive/asyncio-dev.zip
