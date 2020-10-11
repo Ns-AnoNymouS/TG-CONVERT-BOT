@@ -5,7 +5,7 @@ from Tools.progress import progress_for_pyrogram
 #Download the media
 
 async def download(c, m, media):
-   await c.send_message(chat_id=m.chat.id,
+   send = await c.send_message(chat_id=m.chat.id,
                           text=Translation.DOWNLOAD_START,
                           reply_to_message_id=m.message_id)
 
@@ -18,7 +18,7 @@ async def download(c, m, media):
                           progress=progress_for_pyrogram,
                           progress_args=(
                                Translation.DOWNLOAD_START,
-                               a,
+                               send,
                                time
                           )
                     )
