@@ -37,10 +37,11 @@ I can convert file to video or video to file with custom thumbnail support.
 
 #DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
 
-      PROGRESS = """Done ✅: {0}
-Total 🌀: {1}
-Speed 🚀: {2}/s
-ETA 🕰: {3}"""
+      PROGRESS = """Percentage 💁‍♂️: {0}%
+Done ✅: {1}
+Total 🌀: {2}
+Speed 🚀: {3}/s
+ETA 🕰: {4}"""
        
       DOWNLOAD_PROGRESS = "▪️"
       UPLOAD_PROGRESS = "▫️"
