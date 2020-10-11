@@ -1,7 +1,7 @@
 import pyrogram 
 from translation import Translation
 import time
-from Tools import progress 
+from Tools.progress import progress_for_pyrogram
 #Download the media
 
 async def download(c, m, media):
