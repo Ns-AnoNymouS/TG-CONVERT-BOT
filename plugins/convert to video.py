@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 import os
 import pyrogram
 import time
+from PIL import Image
 from pyrogram import Client, Filters 
 from Tools.Download import download
 from Tools.progress import progress_for_pyrogram
