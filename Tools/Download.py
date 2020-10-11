@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 import pyrogram
 import random
 import time
+from config import Config 
 from translation import Translation
 from Tools.progress import progress_for_pyrogram
 #Download the media
