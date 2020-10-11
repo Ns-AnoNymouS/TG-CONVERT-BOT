@@ -1,5 +1,6 @@
 import os
 import time
+import asyncio
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 
