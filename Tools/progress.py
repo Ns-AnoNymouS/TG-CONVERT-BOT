@@ -1,15 +1,8 @@
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
 import math
 import os
 import time
 
-
 from config import Config
-
 from translation import Translation
 
 
