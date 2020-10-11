@@ -13,7 +13,7 @@ async def start(c, m):
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.START.format(m.from_user.first_name),
                          reply_to_message=m.message_id)
-    logger.info(f"{m.from_user.first_name}")}
+    logger.info(f"{m.from_user.first_name}")
 
 @Client.on_message(Filters.command(["help"]))
 async def help(c, m):
