@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 import pyrogram
 
-from pyrogram import Filters
+from pyrogram import Client, Filters
 from translation import Translation
 
 
