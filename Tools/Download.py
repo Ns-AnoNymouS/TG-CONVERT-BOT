@@ -10,6 +10,9 @@ from config import Config
 from translation import Translation
 from Tools.progress import progress_for_pyrogram
 from Tools.screenshot import take_screen_shot
+from hachoir.metadata import extractMetadata
+from hachoir.parser import createParser
+
 #Download the media
 
 async def download(c, m):
