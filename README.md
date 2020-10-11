@@ -1,2 +1,3 @@
 # tg-convert-bot
-You can convert file to video or video to file
+This repo is not yet completed please don't fork
+#Under Maintainence 👷🏻‍♂️
