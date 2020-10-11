@@ -17,7 +17,7 @@ async def download(c, m):
                           file_name=download_location,
                           progress=progress_for_pyrogram,
                           progress_args=(
-                               Translation.DOWNLOAD_START,
+                               "Download Status:",
                                send,
                                time
                           )
