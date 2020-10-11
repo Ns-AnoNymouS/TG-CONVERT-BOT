@@ -22,7 +22,7 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = Client(
-        "Convert Bot",
+        "CONVERTBOT",
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
