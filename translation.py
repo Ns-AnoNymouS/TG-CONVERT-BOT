@@ -45,3 +45,11 @@ ETA 🕰: {4}"""
        
       DOWNLOAD_PROGRESS = "▪️"
       UPLOAD_PROGRESS = "▫️"
+
+##############################################################################################################################
+##############################################################################################################################
+
+      DOWNLOAD_START = "Trying to Download 📥"
+      DOWNLOAD_COMPLETE = "Media Downloaded successfully\nPreparing for upload"
+      UPLOAD_START = "Trying to Upload 📤"
+      UPLOAD_COMPLETE = "THANKS FOR USING ME"
