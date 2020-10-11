@@ -1,6 +1,7 @@
 import pyrogram 
-from translation import Translation
+import random
 import time
+from translation import Translation
 from Tools.progress import progress_for_pyrogram
 #Download the media
 
@@ -32,11 +33,11 @@ async def download(c, m):
             metadata = extractMetadata(createParser(media_location))
             if metadata.has("duration"):
                 duration = metadata.get('duration').seconds
-            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
+            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(m.from_user.id) + ".jpg"
             if not os.path.exists(thumb_image_path):
                 thumb_image_path = await take_screen_shot(
-                    the_real_download_location,
-                    os.path.dirname(the_real_download_location),
+                    media_location,
+                    os.path.dirname(media_location),
                     random.randint(
                         0,
                         duration - 1
