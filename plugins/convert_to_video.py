@@ -16,6 +16,7 @@ async def video(c, m):
       await download(c, m)
       logger.info("Downloading")
 
+
 async def upload_video(c, m, send, media_location, thumb_image_path):
       await send.edit(Translation.UPLOAD_START)
       c_time = time.time()
