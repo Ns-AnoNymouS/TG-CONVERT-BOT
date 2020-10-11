@@ -21,6 +21,7 @@ async def download(c, m):
    send = await c.send_message(chat_id=m.chat.id,
                           text=Translation.DOWNLOAD_START,
                           reply_to_message_id=m.message_id)
+   logger.info("Downloading")
 
 
    download_location = Config.DOWNLOAD_LOCATION + "/"                                                               
@@ -66,4 +67,5 @@ async def download(c, m):
             img.resize((90, height))
             img.save(thumb_image_path, "JPEG")
             c_time = time.time()
-   return media_location
+            await upload_video(c, m, send, media_location, thumb_image_path)
+   
