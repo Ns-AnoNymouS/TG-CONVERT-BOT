@@ -1,7 +1,7 @@
 class Translation(object):
 
 
-#This will be appeared when use start command
+#This will be appeared when anyone use start command
 
       START = """Hello {}
 
@@ -11,7 +11,7 @@ I can convert file to video or video to file with custom thumbnail support.
 """
 
 
-#This will be appeared when use help command
+#This will be appeared when anyone use help command
 
       HELP = """Hey you need help 🤔
 
@@ -25,7 +25,7 @@ I can convert file to video or video to file with custom thumbnail support.
 """
 
 
-#Please don't change this about command
+#Please don't change this about command 🙏
 
       ABOUT = """
 
