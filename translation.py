@@ -1,9 +1,18 @@
 class Translation(object):
+
+
+#This will be appeared when use start command
+
       START = """Hello {}
 
 I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {}
 
-I can convert file to video or video to file with custom thumbnail support"""
+I can convert file to video or video to file with custom thumbnail support.
+"""
+
+
+#This will be appeared when use help command
+
       HELP = """Hey you need help 🤔
 
 1. Send me the telegram file or video which you wanted to convert.
@@ -12,7 +21,11 @@ I can convert file to video or video to file with custom thumbnail support"""
 
 3. Reply to video /converttofile for converting into file.
 
-4. Reply to file /converttovideo for converting into video."""
+4. Reply to file /converttovideo for converting into video.
+"""
+
+
+#Please don't change this about command
 
       ABOUT = """
 
@@ -28,3 +41,6 @@ I can convert file to video or video to file with custom thumbnail support"""
 Total 🌀: {1}
 Speed 🚀: {2}/s
 ETA 🕰: {3}"""
+       
+       DOWNLOAD_PROGRESS = "▪️"
+       UPLOAD_PROGRESS = "▫️"
