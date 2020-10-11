@@ -42,7 +42,8 @@ async def download(c, m):
                         duration - 1
                     )
                 )
-            logger.info(thumb_image_path)            metadata = extractMetadata(createParser(thumb_image_path))
+            logger.info(thumb_image_path)
+            metadata = extractMetadata(createParser(thumb_image_path))
             if metadata.has("width"):
                 width = metadata.get("width")
             if metadata.has("height"):
