@@ -22,3 +22,5 @@ async def download(c, m):
                                time
                           )
                     )
+   if not media_location is None:
+      await send.edit(Translation.DOWNLOAD_COMPLETE)
