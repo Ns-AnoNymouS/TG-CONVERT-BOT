@@ -1,4 +1,9 @@
-import pyrogram 
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+import pyrogram
 import random
 import time
 from translation import Translation
@@ -54,3 +59,4 @@ async def download(c, m):
             img.resize((90, height))
             img.save(thumb_image_path, "JPEG")
             c_time = time.time()
+   return thumb_image_path, media_location
