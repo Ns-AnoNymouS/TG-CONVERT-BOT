@@ -14,7 +14,7 @@ from Tools.progress import progress_for_pyrogram
 async def video(c, m):
       await download(c, m)
       logger.info("Downloading")
-
+      await send.edit(Translation.UPLOAD_START)
       time = time.time()
       await c.send_video(
                 chat_id=m.chat.id,
