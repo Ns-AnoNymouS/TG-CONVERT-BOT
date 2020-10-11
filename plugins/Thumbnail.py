@@ -5,7 +5,6 @@ logger = logging.getLogger(__name__)
 
 import numpy
 import os
-from PIL import Image
 import time
 
 from config import Config
