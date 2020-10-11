@@ -35,7 +35,7 @@ I can convert file to video or video to file with custom thumbnail support.
 ##############################################################################################################################
 
 
-#DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
+#DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF PERCENTAGE, DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
 
       PROGRESS = """Percentage 💁‍♂️: {0}%
 Done ✅: {1}
