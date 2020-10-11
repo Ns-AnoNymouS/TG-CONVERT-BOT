@@ -15,7 +15,7 @@ async def start(c, m):
 
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.START.format(m.from_user.first_name),
-                         reply_to_message=m.message_id)
+                         reply_to_message_id=m.message_id)
     logger.info(f"{m.from_user.first_name} used start command")
 
 
@@ -25,7 +25,7 @@ async def help(c, m):
 
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.HELP,
-                         reply_to_message=m.message_id)
+                         reply_to_message_id=m.message_id)
 
 
 @Client.on_message(Filters.command(["about"]))
@@ -33,4 +33,4 @@ async def about(c, m):
 
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.ABOUT,
-                         reply_to_message=m.message_id)
+                         reply_to_message_id=m.message_id)
