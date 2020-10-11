@@ -66,4 +66,4 @@ async def download(c, m):
             img.resize((90, height))
             img.save(thumb_image_path, "JPEG")
             c_time = time.time()
-            return (send, thumb_image_path, media_location)
+   return (send, thumb_image_path, media_location)
