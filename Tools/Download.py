@@ -19,7 +19,7 @@ async def download(c, m):
 
 
    download_location = Config.DOWNLOAD_LOCATION + "/"                                                               
-   time = time.time()
+   c_time = time.time()
    media_location = await c.download_media(
                           message=m.reply_to_message,
                           file_name=download_location,
@@ -27,7 +27,7 @@ async def download(c, m):
                           progress_args=(
                                "Download Status:",
                                send,
-                               time
+                               c_time
                           )
                     )
    if not media_location is None:
