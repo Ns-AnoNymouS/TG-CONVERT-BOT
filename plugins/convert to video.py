@@ -16,7 +16,7 @@ async def video(c, m):
       await download(c, m)
       logger.info("Downloading")
       #await send.edit(Translation.UPLOAD_START)
-      time = time.time()
+      c_time = time.time()
       await c.send_video(
                 chat_id=m.chat.id,
                 video=media_location,
@@ -30,7 +30,7 @@ async def video(c, m):
                 progress_args=(
                     "Upload Status:",
                     send,
-                    time
+                    c_time
                 )
       )
       try:
