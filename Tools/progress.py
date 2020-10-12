@@ -41,10 +41,11 @@ async def progress_for_pyrogram(
         )
         try:
             await message.edit(
-                text="{}\n {}".format(
+                text="*{}*\n\n {}".format(
                     ud_type,
                     tmp
-                )
+                ),
+                parse_mode='markdown'
             )
         except:
             pass
