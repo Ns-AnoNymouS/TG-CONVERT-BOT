@@ -51,3 +51,4 @@ about - to know about me
 <img src="https://telegra.ph/file/f6ad0e22825afe65ddcd2.jpg" alt="ABOUT">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-Ns_Anonymous.svg)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
