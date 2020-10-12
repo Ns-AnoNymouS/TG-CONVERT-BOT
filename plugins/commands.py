@@ -34,3 +34,11 @@ async def about(c, m):
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.ABOUT,
                          reply_to_message_id=m.message_id)
+
+@Client.on_message(Filters.command(["converttovideo"]))
+async def video(c, m):
+      await download(c, m)
+
+@Client.on_message(Filters.command(["converttofile"]))
+async def file(c, m):
+      await download(c, m)
