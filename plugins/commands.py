@@ -7,7 +7,7 @@ import pyrogram
 
 from pyrogram import Client, Filters
 from translation import Translation
-
+from Tools.Download import download
 
 
 @Client.on_message(Filters.command(["start"]))
