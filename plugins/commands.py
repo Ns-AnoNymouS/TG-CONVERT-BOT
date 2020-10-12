@@ -44,12 +44,12 @@ async def about(c, m):
 async def video(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await bot.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
-  if m.from_user.id in not Config.BANNED_USER:
+  if m.from_user.id not in Config.BANNED_USER:
       await download(c, m)
 
 @Client.on_message(Filters.command(["converttofile"]))
 async def file(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await bot.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
-  if m.from_user.id in not Config.BANNED_USER:
+  if m.from_user.id not in Config.BANNED_USER:
       await download(c, m)
