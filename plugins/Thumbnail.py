@@ -17,7 +17,7 @@ from pyrogram import Client, Filters
 
 @Client.on_message(Filters.photo)
 async def save_photo(bot, update):
-    if update.from_user.id in Config.BANNED_USERS:
+    if update.from_user.id in Config.BANNED_USER:
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
@@ -50,7 +50,7 @@ async def save_photo(bot, update):
 
 @Client.on_message(Filters.command(["deletethumbnail"]))
 async def delete_thumbnail(bot, update):
-    if update.from_user.id in Config.BANNED_USERS:
+    if update.from_user.id in Config.BANNED_USER:
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
