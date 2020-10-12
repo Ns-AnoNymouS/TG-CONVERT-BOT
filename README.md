@@ -4,5 +4,6 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 ## How to create your own bot
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/tg-convert-bot/tree/main)
-- Press the deploy button 👆.
-- 
+- 👆 Press the deploy button.
+- Give a name to your app.
+- Get your API hashes, Id from [telegram.org](
