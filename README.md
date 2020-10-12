@@ -13,3 +13,5 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 - Paste the below API_HASH and API_ID respectively.
 
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
+
+- Paste the token below
