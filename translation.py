@@ -5,7 +5,7 @@ class Translation(object):
 
       START = """Hello {0}
 
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {0}
+I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
 
 I can convert file to video or video to file with custom thumbnail support.
 """
