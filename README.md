@@ -55,5 +55,5 @@ about - to know about me
 #
 ![](https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif)
 
-##License
+## License
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/blob/main/LICENSE)
