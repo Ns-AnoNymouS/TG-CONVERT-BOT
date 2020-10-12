@@ -14,7 +14,7 @@ from Tools.progress import progress_for_pyrogram
 from Tools.screenshot import take_screen_shot
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
-from plugins.convert_to_video import upload_video
+from Tools.upload import upload_video
 #Download the media
 
 async def download(c, m):
