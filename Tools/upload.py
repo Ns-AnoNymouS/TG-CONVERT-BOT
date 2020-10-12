@@ -1,7 +1,10 @@
 import os
+import time
 import pyrogram
 from Tools.progress import progress_for_pyrogram
 from translation import Translation
+
+
 async def upload_video(c, m, send, media_location, thumb_image_path):
       await send.edit(Translation.UPLOAD_START)
       c_time = time.time()
