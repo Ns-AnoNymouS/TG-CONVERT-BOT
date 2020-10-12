@@ -22,6 +22,8 @@ I can convert file to video or video to file with custom thumbnail support.
 3. Reply to video /converttofile for converting into file.
 
 4. Reply to file /converttovideo for converting into video.
+
+**SUPPORT GROUP:** [NS_BOT_SUPPORTERS](https://telegram.dog/Ns_Bot_supporters)
 """
 
 
