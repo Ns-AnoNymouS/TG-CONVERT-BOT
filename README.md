@@ -1,10 +1,14 @@
-## TG-CONVERTER-BOT [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
+## TG-CONVERTER-BOT 
 This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) there is more difference between my bot and this repo. But the purposes is same
+
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
+
 ## Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 ![1](https://github-readme-stats.vercel.app/api/top-langs/?username=Ns-AnoNymouS&theme=blue-green)
+
 ## How to create your own bot
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/tg-convert-bot/tree/main)
 - 👆 Press the deploy button.
