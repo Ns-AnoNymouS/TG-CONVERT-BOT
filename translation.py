@@ -28,6 +28,17 @@ I can convert file to video or video to file with custom thumbnail support.
 #Please don't change this about command 🙏
 
       ABOUT = """
+**📝 Language:** Python 3
+
+**🧰 Framework:** Pyrogram
+
+**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+
+**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+
+**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
+
+**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)"""
 
 """
 
