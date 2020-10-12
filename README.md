@@ -1,4 +1,4 @@
-## TG-CONVERTER-BOT
+## TG-CONVERTER-BOT [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) there is more difference between my bot and this repo. But the purposes is same
 ## Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
