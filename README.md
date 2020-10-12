@@ -72,4 +72,4 @@ about - to know about me
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
 - [Mahesh Malekar](https://telegram.dog/MaheshMalekar)
 - [Dan](https://telegram.dog/haskell) for his pyrogram docs
-- [SpEcHIDe](https://telegram.dog/SpEcHIDe)
+- [SpEcHIDe](https://telegram.dog/SpEcHIDe) for his AnyDlBot 
