@@ -27,7 +27,7 @@ async def help(c, m):
 
     await c.send_message(chat_id=m.chat.id,
                          text=Translation.HELP,
-                         reply_to_message_id=m.message_id),
+                         reply_to_message_id=m.message_id,
                          parse_mode="markdown")
 
 
