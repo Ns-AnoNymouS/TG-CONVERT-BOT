@@ -67,5 +67,5 @@ async def download(c, m):
             img.resize((90, height))
             img.save(thumb_image_path, "JPEG")
             c_time = time.time()
-            await upload_video(c, m, send, media_location, thumb_image_path)
+            await upload_video(c, m, send, media_location, thumb_image_path, duration, width, height)
    
