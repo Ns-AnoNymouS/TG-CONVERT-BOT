@@ -26,13 +26,9 @@
       "description": "Your bot token, as a string.",
       "value": ""
     },
-    "OWNER_NAME": {
-      "description": "Your name like AnoNymouS",
-      "value": "AnoNymouS"
-    },
-    "USER_ID": {
-      "description": "Use miss rose for getting your id",
-      "value": "1337144652"
+    "USER_NAME": {
+      "description": "Your name like @NS_AnoNymouS",
+      "value": "@NS_AnoNymouS"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
