@@ -10,4 +10,6 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 
 - Get your API hashes, Id from [my.telegram.org](https://my.telegram.org/)
 
-- Paste the below
+- Paste the below API_HASH and API_ID respectively.
+
+- Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
