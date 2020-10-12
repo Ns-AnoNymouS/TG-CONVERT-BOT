@@ -6,7 +6,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH")
     USER_NAME = os.environ.get("USER_NAME", "")
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
-    BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
+    BANNED_USER = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     OUO_IO_API_KEY = ""
