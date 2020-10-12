@@ -42,3 +42,7 @@ about - to know about me
 ### help
 <p align="center">
 <img src="https://telegra.ph/file/0ba25cedf094225ad7175.jpg" alt="START">
+
+### about
+<p align="center">
+<img src="https://telegra.ph/file/f6ad0e22825afe65ddcd2.jpg" alt="START">
