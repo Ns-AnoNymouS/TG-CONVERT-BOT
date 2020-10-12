@@ -55,4 +55,4 @@ ETA 🕰: {4}
       DOWNLOAD_COMPLETE = "✅ Media Downloaded successfully\nPreparing for upload"
       UPLOAD_START = "Trying to Upload 📤"
       UPLOAD_COMPLETE = "THANKS FOR USING ME"
-      SAVED_CUSTOM_THUMB_NAIL = "Saved Thumbnail Successfully. This will be deleted in 24hrs"
+      SAVED_CUSTOM_THUMB_NAIL = "✅ Saved Thumbnail Successfully. This will be deleted in 24hrs"
