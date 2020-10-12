@@ -28,4 +28,5 @@ async def upload_video(c, m, send, media_location, thumb_image_path, duration, w
           os.remove(media_location)
       except:
           pass
-      await send.edit_message_text(Translation.UPLOAD_COMPLETE)
+      await send.edit(Translation.UPLOAD_COMPLETE)
+      logger.info(f"{m.from_user.first_name}'s Task completed")
