@@ -23,8 +23,18 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 <a href="https://telegram.dog/Ns_Bot_supporters"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ## COMMANDS
-
-### START COMMAND
+### AVAILABLE COMMANDS 
+```
+/start - check whether bot is alive 
+/converttovideo - reply to the media for converting into video 
+/converttofile - reply to the media for converting into file 
+/help - know how to use this bot
+/about - to know about me
+```
+### start
 <p align="center">
 <img src="https://telegra.ph/file/3cb7e3725cd991373dd9b.jpg" alt="START">
 
+### help
+<p align="center">
+<img src="https://telegra.ph/file/0ba25cedf094225ad7175.jpg" alt="START">
