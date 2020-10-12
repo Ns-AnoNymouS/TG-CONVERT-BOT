@@ -18,7 +18,7 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 
 - Give your username in USER_ID.
 
-__YouTube video__ - <a href="https://youtu.be/zQamSjXBpJU"><img src="https://img.shields.io/badge/How%20To-Create-red.svg?logo=Youtube"></a>
+<i>YouTube video</i> - <a href="https://youtu.be/zQamSjXBpJU"><img src="https://img.shields.io/badge/How%20To-Create-red.svg?logo=Youtube"></a>
 
 
 ## How to reach Me ?
