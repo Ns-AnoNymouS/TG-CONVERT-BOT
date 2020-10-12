@@ -17,3 +17,6 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 - Paste the token below TG_BOT_TOKEN.
 
 - Give your username in USER_ID.
+
+## How to reach us
+[![Telegram]("https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram")](https://telegram.dog/Ns_bot_updates)
