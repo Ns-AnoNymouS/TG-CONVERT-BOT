@@ -69,5 +69,5 @@ ETA 🕰: {4}
       UPLOAD_START = "Trying to Upload 📤"
       UPLOAD_COMPLETE = "THANKS FOR USING ME"
       SAVED_CUSTOM_THUMB_NAIL = "✅ Saved Thumbnail Successfully. This will be deleted in 24hrs"
-      BANNED_TEXT = "YOU ARE BANNED. SO YOUR ARE ABLE TO USE ME 🐒"
+      BANNED_TEXT = "YOU ARE BANNED. SO YOUR ARE NOT ABLE TO USE ME 🐒"
       REPLY_TEXT = "🦧 Reply to the media which you need to convert"
