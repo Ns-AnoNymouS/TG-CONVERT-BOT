@@ -37,11 +37,13 @@ I can convert file to video or video to file with custom thumbnail support.
 
 #DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF PERCENTAGE, DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
 
-      PROGRESS = """Percentage 💁‍♂️: {0}%
+      PROGRESS = """
+Percentage : {0}%
 Done ✅: {1}
 Total 🌀: {2}
 Speed 🚀: {3}/s
-ETA 🕰: {4}"""
+ETA 🕰: {4}
+"""
        
       DOWNLOAD_PROGRESS = "▪️"
       UPLOAD_PROGRESS = "▫️"
@@ -50,7 +52,7 @@ ETA 🕰: {4}"""
 ##############################################################################################################################
 
       DOWNLOAD_START = "Trying to Download 📥"
-      DOWNLOAD_COMPLETE = "Media Downloaded successfully\nPreparing for upload"
+      DOWNLOAD_COMPLETE = "✅ Media Downloaded successfully\nPreparing for upload"
       UPLOAD_START = "Trying to Upload 📤"
       UPLOAD_COMPLETE = "THANKS FOR USING ME"
       SAVED_CUSTOM_THUMB_NAIL = "Saved Thumbnail Successfully. This will be deleted in 24hrs"
