@@ -14,9 +14,9 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+  "success_url": "https://telegram.dog/convert_Ns_bot",
+  "website": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
+  "repository": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
