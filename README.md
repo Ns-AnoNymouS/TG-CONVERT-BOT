@@ -15,3 +15,5 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
 - Paste the token below TG_BOT_TOKEN.
+
+- Give your username in USER_ID.
