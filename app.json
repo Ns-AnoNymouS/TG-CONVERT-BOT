@@ -26,10 +26,13 @@
       "description": "Your bot token, as a string.",
       "value": ""
     },
-    "CHAT_BASE_TOKEN": {
-      "description": "Your chat base token, as a string.",
-      "value": "",
-      "required" : false
+    "USER_NAME": {
+      "description": "Your name like AnoNymouS",
+      "value": "AnoNymouS"
+    },
+    "USER_ID": {
+      "description": "Use miss rose for getting your id",
+      "value": "1337144652"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -41,7 +44,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 20516707 23122162 500346573"
+      "value": "1337144652"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
