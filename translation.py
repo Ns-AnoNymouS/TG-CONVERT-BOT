@@ -13,7 +13,7 @@ I can convert file to video or video to file with custom thumbnail support.
 
 #This will be appeared when anyone use help command
 
-      HELP = """Hey you need help 🤔
+      HELP = """**Hey you need help 🤔 ?**
 
 1. Send me the telegram file or video which you wanted to convert.
 
@@ -23,7 +23,7 @@ I can convert file to video or video to file with custom thumbnail support.
 
 4. Reply to file /converttovideo for converting into video.
 
-**SUPPORT GROUP:** [NS_BOT_SUPPORTERS](https://telegram.dog/Ns_Bot_supporters)
+**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
 """
 
 
