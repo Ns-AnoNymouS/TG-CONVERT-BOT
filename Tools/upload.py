@@ -8,7 +8,8 @@ from translation import Translation
 async def upload_video(c, m, send, media_location, thumb_image_path, duration, width, height):
       await send.edit(Translation.UPLOAD_START)
       c_time = time.time()
-      await c.send_video(
+      if m.text == "/converttovideo":
+         await c.send_video(
                 chat_id=m.chat.id,
                 video=media_location,
                 duration=duration,
@@ -23,7 +24,22 @@ async def upload_video(c, m, send, media_location, thumb_image_path, duration, w
                     send,
                     c_time
                 )
-      )
+         )
+      if m.text == "/converttofile":
+         await c.send_video(
+                chat_id=m.chat.id,
+                file=media_location,
+                width=width,
+                height=height,
+                thumb=thumb_image_path,
+                reply_to_message_id=m.reply_to_message.message_id,
+                progress=progress_for_pyrogram,
+                progress_args=(
+                    "Upload Status:",
+                    send,
+                    c_time
+                )
+         )
       try:
           os.remove(media_location)
       except:
