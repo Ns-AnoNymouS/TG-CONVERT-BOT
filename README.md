@@ -34,9 +34,6 @@ converttovideo - reply to the media for converting into video
 
 converttofile - reply to the media for converting into file 
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-
 help - know how to use this bot
 
 about - to know about me
@@ -47,8 +44,10 @@ about - to know about me
 
 ### help
 <p align="center">
-<img src="https://telegra.ph/file/0ba25cedf094225ad7175.jpg" alt="START">
+<img src="https://telegra.ph/file/0ba25cedf094225ad7175.jpg" alt="HELP">
 
 ### about
 <p align="center">
-<img src="https://telegra.ph/file/f6ad0e22825afe65ddcd2.jpg" alt="START">
+<img src="https://telegra.ph/file/f6ad0e22825afe65ddcd2.jpg" alt="ABOUT">
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
