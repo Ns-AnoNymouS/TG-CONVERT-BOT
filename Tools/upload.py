@@ -33,7 +33,7 @@ async def upload_video(c, m, send, media_location, thumb_image_path, duration, w
       if m.text == "/converttofile":
          await c.send_document(
                 chat_id=m.chat.id,
-                file=media_location,
+                document=media_location,
                 width=width,
                 height=height,
                 thumb=thumb_image_path,
