@@ -21,7 +21,7 @@ async def download(c, m):
    send = await c.send_message(chat_id=m.chat.id,
                           text=Translation.DOWNLOAD_START,
                           reply_to_message_id=m.message_id)
-   logger.info("Downloading")
+   logger.info(f"Downloading strated by {m.from_user.first_name}")
 
 
    download_location = Config.DOWNLOAD_LOCATION + "/"                                                               
@@ -38,16 +38,17 @@ async def download(c, m):
                     )
    if not media_location is None:
             await send.edit(Translation.DOWNLOAD_COMPLETE)
-            logger.info(media_location)
+            logger.info(f"{media_location} was downloaded successfully")
 
             width = 0
             height = 0
             duration = 0
             metadata = extractMetadata(createParser(media_location))
-            if metadata.has("duration"):
-                duration = metadata.get('duration').seconds
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(m.from_user.id) + ".jpg"
-            if not os.path.exists(thumb_image_path):
+            if m.text == "/converttovideo":
+              if metadata.has("duration"):
+                duration = metadata.get('duration').seconds
+              if not os.path.exists(thumb_image_path):
                 thumb_image_path = await take_screen_shot(
                     media_location,
                     os.path.dirname(media_location),
@@ -56,16 +57,20 @@ async def download(c, m):
                         duration - 1
                     )
                 )
+            if m.text == "/converttofile":
+              if not os.path.exists(thumb_image_path):
+                 thumb_image_path = None
             logger.info(thumb_image_path)
-            metadata = extractMetadata(createParser(thumb_image_path))
-            if metadata.has("width"):
+            if thumb_image_path is not None:
+               metadata = extractMetadata(createParser(thumb_image_path))
+               if metadata.has("width"):
                 width = metadata.get("width")
-            if metadata.has("height"):
+               if metadata.has("height"):
                 height = metadata.get("height")
-            Image.open(thumb_image_path).convert("RGB").save(thumb_image_path)
-            img = Image.open(thumb_image_path)
-            img.resize((90, height))
-            img.save(thumb_image_path, "JPEG")
+               Image.open(thumb_image_path).convert("RGB").save(thumb_image_path)
+               img = Image.open(thumb_image_path)
+               img.resize((90, height))
+               img.save(thumb_image_path, "JPEG")
             c_time = time.time()
             await upload_video(c, m, send, media_location, thumb_image_path, duration, width, height)
    
