@@ -25,11 +25,15 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 ## COMMANDS
 ### AVAILABLE COMMANDS 
 ```
-/start - check whether bot is alive 
-/converttovideo - reply to the media for converting into video 
-/converttofile - reply to the media for converting into file 
-/help - know how to use this bot
-/about - to know about me
+start - check whether bot is alive 
+
+converttovideo - reply to the media for converting into video 
+
+converttofile - reply to the media for converting into file 
+
+help - know how to use this bot
+
+about - to know about me
 ```
 ### start
 <p align="center">
