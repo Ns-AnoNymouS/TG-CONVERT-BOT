@@ -75,4 +75,4 @@ about - to know about me
 - [SpEcHIDe](https://telegram.dog/SpEcHIDe) for his AnyDlBot
 
 ## TO DO
-[] Adding password for using bot
+[.] Adding password for using bot
