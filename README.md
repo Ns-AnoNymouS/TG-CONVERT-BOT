@@ -1,4 +1,4 @@
-## TG-CONVERTER-BOT 
+⁷## TG-CONVERTER-BOT 
 This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) there is more difference between my bot and this repo. But the purposes is same
 
 
@@ -75,4 +75,4 @@ about - to know about me
 - [SpEcHIDe](https://telegram.dog/SpEcHIDe) for his AnyDlBot
 
 ## TO DO
-[.] Adding password for using bot
+[ ] Adding password for using bot
