@@ -11,3 +11,4 @@ class Config(object):
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
+    BOT_PWD = os.environ.get("BOT_PASSWORD", "")
