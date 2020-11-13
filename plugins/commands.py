@@ -69,3 +69,12 @@ async def file(c, m):
       await download(c, m)
     else:
        await c.send_message(chat_id=m.chat.id, text=Translation.REPLY_TEXT)
+
+@Client.on_message(Filters.command(["login"]))
+async def login(c, m):
+
+    await c.send_message(chat_id=m.chat.id,
+                         text=Translation.SUCESS_LOGIN,
+                         disable_web_page_preview=True,
+                         reply_to_message_id=m.message_id,
+                         parse_mode="markdown")
