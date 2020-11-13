@@ -49,6 +49,11 @@ I can convert file to video or video to file with custom thumbnail support.
       NOT_LOGGED_TEXT = """ This bot was a private bot you need to login using the password.
 For logging in use command <code>/login BotPassword</code>. And then use me 🥰"""
 
+#This will be sent to the user when the user logged successfully
+
+      SUCESS_LOGIN = """You are successfully logged in. So you can use me for today.
+You access will be revoke by tomorrow"""
+
 ####################################################################################################################################################
 ####################################################################################################################################################
 
