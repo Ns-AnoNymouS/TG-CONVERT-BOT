@@ -12,3 +12,4 @@ class Config(object):
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
     BOT_PWD = os.environ.get("BOT_PASSWORD", "")
+    LOGGED_USER = []
