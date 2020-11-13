@@ -33,7 +33,7 @@
     },
     "BOT_PASSWORD": {
       "description": "Password for using this bot. If you don't set any password bot can be used as public",
-      "value": ""
+      "value": "",
       "required": false
     },
     "APP_ID": {
