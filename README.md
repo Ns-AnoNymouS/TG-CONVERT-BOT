@@ -76,4 +76,4 @@ about - to know about me
 
 ## TO DO
 
-- [ ] Adding password for using bot
+- [X] Adding password for using bot
