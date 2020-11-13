@@ -65,6 +65,11 @@ You access will be revoke by tomorrow"""
 
       WRONG_PWD = """This is a wrong password 🔐 please try with correct password"""
 
+
+# This will appear if the user is already logged
+
+      EXISTING_USER = "You are already logged in you can use me"
+
 ####################################################################################################################################################
 ####################################################################################################################################################
 
