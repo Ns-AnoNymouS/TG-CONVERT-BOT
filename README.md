@@ -76,4 +76,4 @@ about - to know about me
 
 ## NEWLY ADDED
 
-- [X] Adding password for using bot
+- [X] Added password for using bot
