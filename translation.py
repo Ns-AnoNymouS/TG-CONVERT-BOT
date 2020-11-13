@@ -44,6 +44,11 @@ I can convert file to video or video to file with custom thumbnail support.
 
 """
 
+####################################################################################################################################################
+####################################################################################################################################################
+
+
+
 #If you set the password for the bot if anyone use the bot without logging in this text will appear
 
       NOT_LOGGED_TEXT = """ This bot was a private bot you need to login using the password.
@@ -58,7 +63,7 @@ You access will be revoke by tomorrow"""
 
 # This will be show when an user send wrong password
 
-       WRONG_PWD = """This is a wrong password 🔐 please try with correct password"""
+      WRONG_PWD = """This is a wrong password 🔐 please try with correct password"""
 
 ####################################################################################################################################################
 ####################################################################################################################################################
@@ -79,6 +84,8 @@ ETA 🕰: {4}
 
 ####################################################################################################################################################
 ####################################################################################################################################################
+
+
 
       DOWNLOAD_START = "Trying to Download 📥"
       DOWNLOAD_COMPLETE = "✅ Media Downloaded successfully\nPreparing for upload"
