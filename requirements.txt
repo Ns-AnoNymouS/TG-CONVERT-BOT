@@ -2,4 +2,6 @@ hachoir
 numpy
 tgcrypto
 Pillow
+psycopg2-binary
+sqlalchemy
 https://github.com/pyrogram/pyrogram/archive/asyncio-dev.zip
