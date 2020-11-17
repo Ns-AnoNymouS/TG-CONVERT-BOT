@@ -47,7 +47,7 @@ async def about(c, m):
 async def video(c, m):
 
   if Config.BOT_PWD:
-      if (m.from_user.id not in Conig.LOGGED_USER):#|(m.from_user.id not in Conig.AUTH_USERS):
+      if (m.from_user.id not in Config.LOGGED_USER):#|(m.from_user.id not in Conig.AUTH_USERS):
           await m.reply_text(text=Translation.NOT_LOGGED_TEXT, quote=True)
           return
       else:
