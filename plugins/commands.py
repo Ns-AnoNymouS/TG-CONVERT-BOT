@@ -75,13 +75,14 @@ async def file(c, m):
 async def login(c, m):
 
     if Config.BOT_PWD:
-        if str(m.text) == str(Config.BOT_PWD):
+        _, pass = m.text.split(" ")
+        if str(pass) == str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.SUCESS_LOGIN,
                                  disable_web_page_preview=True,
                                  reply_to_message_id=m.message_id,
                                  parse_mode="markdown")
-        if str(m.text) != str(Config.BOT_PWD):
+        if str(pass) != str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.WRONG_PWD,
                                  disable_web_page_preview=True,
