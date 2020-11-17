@@ -74,13 +74,13 @@ async def file(c, m):
 @Client.on_message(Filters.command(["login"]))
 async def login(c, m):
 
-    if (Config.BOT_PWD) & (m.text == Config.BOT_PWD) & (m.from_user.id not in Conig.LOGGED_USER):
+    if (Config.BOT_PWD) & (str(m.text) == str(Config.BOT_PWD)) & (m.from_user.id not in Conig.LOGGED_USER):
         await c.send_message(chat_id=m.chat.id,
                              text=Translation.SUCESS_LOGIN,
                              disable_web_page_preview=True,
                              reply_to_message_id=m.message_id,
                              parse_mode="markdown")
-    elif (Config.BOT_PWD) & (m.text != Config.BOT_PWD) & (m.from_user.id not in Conig.LOGGED_USER):
+    elif (Config.BOT_PWD) & (str(m.text) != str(Config.BOT_PWD)) & (m.from_user.id not in Conig.LOGGED_USER):
         await c.send_message(chat_id=m.chat.id,
                              text=Translation.WRONG_PWD,
                              disable_web_page_preview=True,
