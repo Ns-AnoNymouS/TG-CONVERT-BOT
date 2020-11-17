@@ -74,8 +74,8 @@ async def file(c, m):
 @Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
 async def login(c, m):
 
+    _, pass = m.text.split(" ")
     if Config.BOT_PWD:
-        _, pass = m.text.split(" ")
         if str(pass) == str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.SUCESS_LOGIN,
