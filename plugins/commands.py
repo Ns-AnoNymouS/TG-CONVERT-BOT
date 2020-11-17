@@ -75,7 +75,7 @@ async def file(c, m):
 async def login(c, m):
 
     if Config.BOT_PWD:
-        com, pass = m.text.split(" ")
+        _, pass = m.text.split(" ")
         if str(pass) == str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.SUCESS_LOGIN,
