@@ -71,10 +71,10 @@ async def file(c, m):
     else:
        await c.send_message(chat_id=m.chat.id, text=Translation.REPLY_TEXT)
 
-@Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
+@Client.on_message(Filters.command(["login"]))
 async def login(c, m):
 
-    if len(m.command) >= 2:
+    if (len(m.command) >= 2) & (m.from_user.id not in Config.LOGGED_USER):
         if Config.BOT_PWD:
             _, password = m.text.split(" ", 1)
             if str(password) == str(Config.BOT_PWD):
@@ -91,19 +91,16 @@ async def login(c, m):
                                      reply_to_message_id=m.message_id,
                                      parse_mode="markdown")
 
-    else:
+    if (len(m.command) < 2) & (m.from_user.id not in Config.LOGGED_USER):
         await c.send_message(chat_id=m.chat.id,
                                      text="Use this command for login to this bot. Semd the passwordin the format 👉`/login Bot password`.",
                                      disable_web_page_preview=True,
                                      reply_to_message_id=m.message_id,
                                      parse_mode="markdown")
 
-
-@Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
-async def login_exist(c, m):
-
-    await c.send_message(chat_id=m.chat.id,
-                         text=Translation.EXISTING_USER,
-                         disable_web_page_preview=True,
-                         reply_to_message_id=m.message_id,
-                         parse_mode="markdown")
+    if m.from_user.id not in Config.LOGGED_USER:
+        await c.send_message(chat_id=m.chat.id,
+                             text=Translation.EXISTING_USER,
+                             disable_web_page_preview=True,
+                             reply_to_message_id=m.message_id,
+                             parse_mode="markdown")
