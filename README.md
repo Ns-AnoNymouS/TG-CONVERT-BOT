@@ -10,7 +10,7 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 - [X] Added password for using bot as private 
 - [X] Added database for permanent thumbnail 
 
-<u>Note:</u> If yiu find any bug report in [Ns Bot Support](https://telegram.dog/ns_bot_supporters)
+<u> Note: </u> If you find any bug report in [Ns Bot Support](https://telegram.dog/ns_bot_supporters)
 
 
 ## How to create your own bot
