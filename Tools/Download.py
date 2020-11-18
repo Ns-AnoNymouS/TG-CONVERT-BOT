@@ -51,9 +51,12 @@ async def download(c, m):
         if not os.path.exists(thumb_image_path):
             mes = await get_thumb(m.from_user.id)
             if mes != None:
-                m = await c.get_messages(m.chat.id, mes.msg_id)
-                await m.download(file_name=thumb_image_path)
-                thumb_image_path = thumb_image_path
+                try:
+                    m = await c.get_messages(m.chat.id, mes.msg_id)
+                    await m.download(file_name=thumb_image_path)
+                    thumb_image_path = thumb_image_path
+                except:
+                    pass
             if mes == None:
                 if m.text == "/converttovideo":
                     if metadata.has("duration"):
