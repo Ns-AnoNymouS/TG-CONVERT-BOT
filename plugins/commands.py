@@ -83,7 +83,7 @@ async def login(c, m):
                                      disable_web_page_preview=True,
                                      reply_to_message_id=m.message_id,
                                      parse_mode="markdown")
-                CONFIG.LOGGED_USER.append(m.from_user.id)
+                Config.LOGGED_USER.append(m.from_user.id)
             if str(password) != str(Config.BOT_PWD):
                 await c.send_message(chat_id=m.chat.id,
                                      text=Translation.WRONG_PWD,
