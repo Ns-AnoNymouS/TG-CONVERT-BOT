@@ -49,9 +49,9 @@ async def download(c, m):
         thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(m.from_user.id) + ".jpg"
 
         if not os.path.exists(thumb_image_path):
-            mes = await get_thumb(update.from_user.id)
+            mes = await get_thumb(m.from_user.id)
             if mes != None:
-                m = await bot.get_messages(update.chat.id, mes.msg_id)
+                m = await bot.get_messages(m.chat.id, mes.msg_id)
                 await m.download(file_name=thumb_image_path)
                 thumb_image_path = thumb_image_path
             if mes == None:
