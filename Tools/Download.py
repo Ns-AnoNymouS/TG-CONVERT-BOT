@@ -51,7 +51,7 @@ async def download(c, m):
         if not os.path.exists(thumb_image_path):
             mes = await get_thumb(m.from_user.id)
             if mes != None:
-                m = await bot.get_messages(m.chat.id, mes.msg_id)
+                m = await c.get_messages(m.chat.id, mes.msg_id)
                 await m.download(file_name=thumb_image_path)
                 thumb_image_path = thumb_image_path
             if mes == None:
@@ -68,17 +68,17 @@ async def download(c, m):
                         )
                 if m.text == "/converttofile":
                     thumb_image_path = None
-            logger.info(thumb_image_path)
-            if thumb_image_path is not None:
-                metadata = extractMetadata(createParser(thumb_image_path))
-                if metadata.has("width"):
-                    width = metadata.get("width")
-                if metadata.has("height"):
-                    height = metadata.get("height")
-                Image.open(thumb_image_path).convert("RGB").save(thumb_image_path)
-                img = Image.open(thumb_image_path)
-                img.resize((90, height))
-                img.save(thumb_image_path, "JPEG")
-            c_time = time.time()
-            await upload_video(c, m, send, media_location, thumb_image_path, duration, width, height)
+        logger.info(thumb_image_path)
+        if thumb_image_path is not None:
+            metadata = extractMetadata(createParser(thumb_image_path))
+            if metadata.has("width"):
+                width = metadata.get("width")
+            if metadata.has("height"):
+                height = metadata.get("height")
+            Image.open(thumb_image_path).convert("RGB").save(thumb_image_path)
+            img = Image.open(thumb_image_path)
+            img.resize((90, height))
+            img.save(thumb_image_path, "JPEG")
+        c_time = time.time()
+        await upload_video(c, m, send, media_location, thumb_image_path, duration, width, height)
    
