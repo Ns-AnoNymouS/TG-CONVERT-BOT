@@ -62,6 +62,7 @@ async def delete_thumbnail(bot, update):
         return
     download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id)
     try:
+        await sql.del_thumb(update.from_user.id)
         os.remove(download_location + ".jpg")
         # os.remove(download_location + ".json")
     except:
