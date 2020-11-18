@@ -63,9 +63,9 @@ async def video(c, m):
 
 @Client.on_message(Filters.command(["converttofile"]))
 async def file(c, m):
-
+  print(Config.AUTH_USERS)
   if Config.BOT_PWD:
-      if (m.from_user.id not in Config.LOGGED_USER)|(str(m.from_user.id) not in Config.AUTH_USERS):
+      if (m.from_user.id not in Config.LOGGED_USER)|(m.from_user.id not in Config.AUTH_USERS):
           await m.reply_text(text=Translation.NOT_LOGGED_TEXT, quote=True)
           return
       else:
@@ -104,7 +104,7 @@ async def login(c, m):
                                  reply_to_message_id=m.message_id,
                                  parse_mode="markdown")
 
-        if (m.from_user.id in Config.LOGGED_USER)|(str(m.from_user.id) not in Config.AUTH_USERS):
+        if (m.from_user.id in Config.LOGGED_USER)|(m.from_user.id in Config.AUTH_USERS):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.EXISTING_USER,
                                  disable_web_page_preview=True,
