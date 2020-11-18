@@ -98,7 +98,7 @@ async def login(c, m):
                                      reply_to_message_id=m.message_id,
                                      parse_mode="markdown")
 
-    if m.from_user.id not in Config.LOGGED_USER:
+    if m.from_user.id in Config.LOGGED_USER:
         await c.send_message(chat_id=m.chat.id,
                              text=Translation.EXISTING_USER,
                              disable_web_page_preview=True,
