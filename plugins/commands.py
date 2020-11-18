@@ -81,7 +81,7 @@ async def file(c, m):
 @Client.on_message(Filters.command(["login"]))
 async def login(c, m):
     if Config.BOT_PWD:
-        if (len(m.command) >= 2) & (m.from_user.id not in Config.LOGGED_USER):
+        if (len(m.command) >= 2) & (m.from_user.id not in Config.LOGGED_USER) & (m.from_user.id not in Config.AUTH_USERS):
             _, password = m.text.split(" ", 1)
             if str(password) == str(Config.BOT_PWD):
                 await c.send_message(chat_id=m.chat.id,
@@ -97,7 +97,7 @@ async def login(c, m):
                                      reply_to_message_id=m.message_id,
                                      parse_mode="markdown")
 
-        if (len(m.command) < 2) & (m.from_user.id not in Config.LOGGED_USER):
+        if (len(m.command) < 2) & (m.from_user.id not in Config.LOGGED_USER) & (m.from_user.id not in Config.AUTH_USERS):
             await c.send_message(chat_id=m.chat.id,
                                  text="Use this command for login to this bot. Semd the passwordin the format 👉`/login Bot password`.",
                                  disable_web_page_preview=True,
