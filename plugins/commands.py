@@ -74,20 +74,30 @@ async def file(c, m):
 @Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
 async def login(c, m):
 
-    _, password = m.text.split(" ", 1)
-    if Config.BOT_PWD:
-        if str(password) == str(Config.BOT_PWD):
-            await c.send_message(chat_id=m.chat.id,
-                                 text=Translation.SUCESS_LOGIN,
-                                 disable_web_page_preview=True,
-                                 reply_to_message_id=m.message_id,
-                                 parse_mode="markdown")
-        if str(password) != str(Config.BOT_PWD):
-            await c.send_message(chat_id=m.chat.id,
-                                 text=Translation.WRONG_PWD,
-                                 disable_web_page_preview=True,
-                                 reply_to_message_id=m.message_id,
-                                parse_mode="markdown")
+    if len(m.command) >= 2:
+        if Config.BOT_PWD:
+            _, password = m.text.split(" ", 1)
+            if str(password) == str(Config.BOT_PWD):
+                await c.send_message(chat_id=m.chat.id,
+                                     text=Translation.SUCESS_LOGIN,
+                                     disable_web_page_preview=True,
+                                     reply_to_message_id=m.message_id,
+                                     parse_mode="markdown")
+                CONFIG.LOGGED_USER.append(m.from_user.id)
+            if str(password) != str(Config.BOT_PWD):
+                await c.send_message(chat_id=m.chat.id,
+                                     text=Translation.WRONG_PWD,
+                                     disable_web_page_preview=True,
+                                     reply_to_message_id=m.message_id,
+                                     parse_mode="markdown")
+
+    else:
+        await c.send_message(chat_id=m.chat.id,
+                                     text="Use this command for login to this bot. Semd the passwordin the format 👉`/login Bot password`.",
+                                     disable_web_page_preview=True,
+                                     reply_to_message_id=m.message_id,
+                                     parse_mode="markdown")
+
 
 @Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
 async def login_exist(c, m):
