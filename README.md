@@ -82,6 +82,3 @@ about - to know about me
 - [Dan](https://telegram.dog/haskell) for his pyrogram docs
 - [SpEcHIDe](https://telegram.dog/SpEcHIDe) for his AnyDlBot
 
-## NEWLY ADDED
-
-- [X] Added password for using bot
