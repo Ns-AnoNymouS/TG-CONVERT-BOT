@@ -74,23 +74,26 @@ async def file(c, m):
 @Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
 async def login(c, m):
 
-    pass = m.text.split(" ", 1)[1]
+    _, password = m.text.split(" ", 1)
     if Config.BOT_PWD:
-        if str(pass) == str(Config.BOT_PWD):
+        if str(password) == str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.SUCESS_LOGIN,
                                  disable_web_page_preview=True,
                                  reply_to_message_id=m.message_id,
                                  parse_mode="markdown")
-        if str(pass) != str(Config.BOT_PWD):
+        if str(password) != str(Config.BOT_PWD):
             await c.send_message(chat_id=m.chat.id,
                                  text=Translation.WRONG_PWD,
                                  disable_web_page_preview=True,
                                  reply_to_message_id=m.message_id,
                                 parse_mode="markdown")
-        elif (m.from_user.id in Conig.LOGGED_USER):
-            await c.send_message(chat_id=m.chat.id,
-                                 text=Translation.EXISTING_USER,
-                                 disable_web_page_preview=True,
-                                 reply_to_message_id=m.message_id,
-                                 parse_mode="markdown")
+
+@Client.on_message(Filters.command(["login"]) & ~Filters.user(Config.LOGGED_USER))
+async def login_exist(c, m):
+
+    await c.send_message(chat_id=m.chat.id,
+                         text=Translation.EXISTING_USER,
+                         disable_web_page_preview=True,
+                         reply_to_message_id=m.message_id,
+                         parse_mode="markdown")
