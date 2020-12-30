@@ -4,4 +4,4 @@ tgcrypto
 Pillow
 psycopg2-binary
 sqlalchemy
-https://github.com/pyrogram/pyrogram/archive/asyncio-dev.zip
+https://github.com/Ns-AnoNymouS/pyrogram/archive/asyncio-dev.zip
