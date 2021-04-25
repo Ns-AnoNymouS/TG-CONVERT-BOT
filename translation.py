@@ -5,7 +5,7 @@ class Translation(object):
 
       START = """Hello {0}
 
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
+𝗜 𝗔𝗺 𝗔 𝗦𝗶𝗺𝗽𝗹𝗲 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗕𝗼𝘁 𝗠𝗮𝗱𝗲 𝗕𝘆 [𝗠𝗲𝗴𝗮 𝗕𝗼𝘁𝘀](https://telegram.dog/Mega_Bots_Updates) by {1}
 
 I can convert file to video or video to file with custom thumbnail support.
 """
@@ -23,7 +23,7 @@ I can convert file to video or video to file with custom thumbnail support.
 
 4. Reply to file /converttovideo for converting into video.
 
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
+**Support Group:** [𝗠𝗲𝗴𝗮 𝗕𝗼𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗿𝘀](https://telegram.dog/Mega_Bots_Supporters)
 """
 
 
@@ -34,13 +34,13 @@ I can convert file to video or video to file with custom thumbnail support.
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**👨‍💻 Developer:** [𝗪𝗶𝘇𝗮𝗿𝗱](https://t.me/wizard_warrior)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+**📮 Channel:** [𝗠𝗲𝗴𝗮 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀](https://t.me/Mega_Bots_Updates)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
+**👥 Group:** [𝗠𝗲𝗴𝗮 𝗕𝗼𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗿𝘀](https://t.me/Mega_Bots_Supporters)
 
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
+**💻 Source Code:**[Press Me](https://t.me/Mega_Bots_Supporters)
 
 """
 
