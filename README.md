@@ -1,9 +1,9 @@
 ## TG-CONVERTER-BOT 
-This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) there is more difference between my bot and this repo. But the purposes is same
+This repo is the clone of [Convert bot](https://telegram.dog/disneyteamconvertbot) there is more difference between my bot and this repo. But the purposes is same
 
 
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/disneyteam76/TG-CONVERT-BOT/tree/patch-1)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/doreamonfans1)
 
 ## What is the difference b/w master and beta?
 
@@ -14,7 +14,7 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 
 
 ## How to create your own bot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/tg-convert-bot/tree/beta)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/disneyteam76/tg-convert-bot/tree/patch-1)
 - 👆 Press the deploy button.
 
 - Give a name to your app.
@@ -33,8 +33,8 @@ This repo is the clone of [Convert bot](https://telegram.dog/convert_Ns_bot) the
 
 
 ## How to reach Me ?
-<a href="https://telegram.dog/Ns_bot_updates"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://telegram.dog/Ns_Bot_supporters"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://telegram.dog/disneygrou"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://telegram.dog/disneyteamchat"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ## COMMANDS
 ### AVAILABLE COMMANDS 
