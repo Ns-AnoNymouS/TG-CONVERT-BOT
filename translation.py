@@ -5,7 +5,7 @@ class Translation(object):
 
       START = """Hello {0}
 
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
+I am a Disney Team converter [Disney team converter bot](https://telegram.dog/disneyteamconvertbot) by {1}
 
 I can convert file to video or video to file with custom thumbnail support.
 """
@@ -23,7 +23,7 @@ I can convert file to video or video to file with custom thumbnail support.
 
 4. Reply to file /converttovideo for converting into video.
 
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
+**SUPPORT GROUP:** [Disney chat](https://telegram.dog/disneyteamchat)
 """
 
 
@@ -34,13 +34,11 @@ I can convert file to video or video to file with custom thumbnail support.
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**👨‍💻 Developer:** [Doreamonfans](https://t.me/doreamonfans1)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+**📮 Channel:** [Disney Team](https://t.me/disneygrou)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
-
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
+**👥 Group:** [Disney chat](https://t.me/disneyteamchat)
 
 """
 
