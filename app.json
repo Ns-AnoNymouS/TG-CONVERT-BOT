@@ -4,15 +4,8 @@
   "keywords": [
     "telegram",
     "best",
-    "youtube",
-    "downloader",
-    "open",
-    "source",
-    "multi",
-    "purpose",
-    "ffmpeg",
-    "remote",
-    "uploader"
+    "Convert",
+    "Bot"
   ],
   "logo": "https://telegra.ph/file/7f3b556164324610e21a6.jpg",
   "success_url": "https://telegram.dog/convert_Ns_bot",
@@ -30,6 +23,11 @@
     "USER_NAME": {
       "description": "Your name like @NS_AnoNymouS",
       "value": "@NS_AnoNymouS"
+    },
+    "BOT_PASSWORD": {
+      "description": "Password for using this bot. If you don't set any password bot can be used as public",
+      "value": "",
+      "required": false
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -50,6 +48,12 @@
     }
   },
   "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
   ],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"

@@ -11,6 +11,7 @@ from config import Config
 from PIL import Image
 from translation import Translation
 
+import database.database as sql
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import Client, Filters 
@@ -30,6 +31,7 @@ async def save_photo(bot, update):
         # create download directory, if not exist
         if not os.path.isdir(download_location):
             os.makedirs(download_location)
+        await sql.df_thumb(update.from_user.id, update.message_id)
         await bot.download_media(
             message=update,
             file_name=download_location
@@ -41,6 +43,7 @@ async def save_photo(bot, update):
             message=update,
             file_name=download_location
         )
+        await sql.df_thumb(update.from_user.id, update.message_id)
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.SAVED_CUSTOM_THUMB_NAIL,
@@ -59,6 +62,7 @@ async def delete_thumbnail(bot, update):
         return
     download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id)
     try:
+        await sql.del_thumb(update.from_user.id)
         os.remove(download_location + ".jpg")
         # os.remove(download_location + ".json")
     except:
